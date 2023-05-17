@@ -20,6 +20,14 @@
 ```python
 # TODO: you code here...
 ```
+n = int(input("Размер n: "))
+m = int(input("Размер m: "))
+k = int(input("Кол-во долек k: "))
+
+if (n % k == 0 or m % k == 0) and k <= m*n:
+    print("Да")
+else:
+    print("Нет")
 
 ---
 
